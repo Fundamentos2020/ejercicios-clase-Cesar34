@@ -1,15 +1,18 @@
 ﻿
-*{
-	border: 2px solid black;
+#img1{
+	position:relative;
+	 border-right:1050px solid navy;
 }
 
 #img2{
+	background-color:navy;
 	position:relative;
-	left:100%;
+	left:0px;
 }
 
 
 #menu{
+background-color:yellow;
 	padding: 0px;
 	position: sticky;
 	top: 0px;
