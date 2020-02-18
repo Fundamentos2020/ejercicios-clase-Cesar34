@@ -1,0 +1,25 @@
+﻿
+*{
+	border: 2px solid black;
+}
+
+#img2{
+	position:relative;
+	left:100%;
+}
+
+
+#menu{
+	padding: 0px;
+	position: sticky;
+	top: 0px;
+}
+
+li{
+	display:inline-block;
+}
+
+li:hover{
+	background-color:blue;
+}
+
