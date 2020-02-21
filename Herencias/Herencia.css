@@ -1,0 +1,82 @@
+﻿
+/*
+Especificidad se muestra en cuatro niveles (a, b, c ,d)
+a: Se aplica para los estilos definidos en html.
+b: Son los Id's todos los elementos que contengan Id (#)
+c: Son clases y pseudo-clases (hover, active, link, ect)
+d: Son pseudo-elementos y elementos normales de html (p, ul, div)
+*/
+#menu{
+	padding: 0px;
+	color:white;
+	background-color:black;
+}
+
+#menu li{
+	display:inline-block;
+	padding: 0px;
+	width: 100px;
+}
+
+#menu li:hover{
+	background-color:white;
+	color: black;
+}
+
+#content{
+	border:1px solid black;
+}
+
+#content p{
+	color:blue;
+}
+
+#content > p{
+	
+}
+
+@media (max-width: 400px){
+#menu{
+	padding: 0px;
+	color:white;
+	background-color:red;
+}
+
+#menu li{
+	display:inline-block;
+	padding: 10px;
+	width: 100px;
+}
+
+#menu li:hover{
+	background-color:white;
+	color:blue;
+}
+
+}
+
+@media (min-width: 600px){
+#menu{
+	padding: 0px;
+	color:white;
+	background-color:black;
+}
+
+#menu li{
+	display:inline-block;
+	padding: 10px;
+	width: 100px;
+}
+
+#menu li:hover{
+	background-color:white;
+	color:black;
+}
+
+}
+
+
+
+
+
+
