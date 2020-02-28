@@ -1,0 +1,28 @@
+﻿
+/*div{
+	width:20%;
+	border: 1px solid blue;
+}
+
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}*/
+
+.flex-container{
+	background-color:red;
+	display: flex;
+	/*flex-direction: row;*/
+	/*flex-wrap: wrap;*/
+	justify-content: center;
+	height:400px;
+	align-items: center;
+	align-content: center;
+}
+
+.flex-container div{
+	background-color:#0066FF;
+	/*font-size: 2em;*/
+	padding: 0.5em;
+	margin: 0.25em;
+}
