@@ -1,0 +1,105 @@
+﻿html{
+    background-color: rgb(206, 206, 206);
+    font-family: Calibri;
+}
+
+.row{
+}
+
+.col-1{width: 25%;}
+.col-2{width: 75%;}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.border{
+    border: solid 1px black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.h-600{
+    height: 600px;
+}
+
+.m-1{
+    margin: 1em;
+}
+
+.mx{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.back-white{
+    background-color: white;
+}
+
+.p-1{
+    padding: 1em;
+}
+
+.teal{
+    background-color: teal;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-teal{
+	color:aqua;	
+}
+
+.flex{
+    display: flex;
+}
+
+.pb-1{
+    padding-bottom: 0.5em;
+}
+
+.bb{
+    border-bottom: solid 1px lightgray;
+}
+
+#foto{
+    background-image: url("https://picsum.photos/400/200");
+    height: 10em;
+    align-items: flex-end;
+}
+
+#foto div{
+    font-size: 1.25em;
+}
+
+.skill-box{
+    background-color: lightgray;
+}
+
+.b-rad{
+    border-radius: 1em;
+}
+
+.leng-box{
+    height: 1em;
+}
+
+.section-tittle{
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1.2em;	
+}
+
+.current{
+	padding: 0 0.5em;
+	border-radius: 4px;
+}
+
+
+
